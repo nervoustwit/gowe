@@ -1,0 +1,16 @@
+<div class="circular-menu">
+    <div class="links circle">
+        <a ng-repeat="link in links" 
+           href="{{link.url || '#'}}" 
+           title="{{link.title}}" 
+           data-content="{{link.content || ''}}" 
+           class="fa fa-{{link.css}} fa-4x"
+           repeat-done="circleMenuDone()"
+           ng-click="moveMenu()"
+           >
+            {{link.label}}
+        </a>
+
+    </div>
+    <a id="main-menu-button" href="#" class="menu-button gowe-center-logo fa-4x animation-target"></a>
+</div>

@@ -1,0 +1,15 @@
+<div class="margin-menu">
+    <div class="links open">
+        <a ng-repeat="link in links" 
+           href="{{link.url || '#'}}" 
+           title="{{link.title}}" 
+           data-content="{{link.content || ''}}" 
+           class="fa fa-{{link.css}} fa-2x"
+           repeat-done="marginMenuDone()"
+           >
+            {{link.label}}
+        </a>
+
+    </div>
+    <a id="main-menu-button" href="#" class="menu-button gowe-margin-logo fa-3x"></a>
+</div>
