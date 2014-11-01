@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 16, 2014, 10:48:05 PM
+    Author     : patrick
+
+pallettes:
+#2B4E72 rich blue
+#94BA65 khaki
+#e02533 red
+*/
+h1, h2, h3, h4, h5, h6 {
+    color: #7BC143;
+}
+.header-section {
+    background-color: #2B4E72;
+    margin-bottom: -25px;
+}
+
+.header-section .navbar {
+    margin: 15px 0;
+    min-height: 70px;
+}
+#footer .navbar {
+    min-height: 35px;
+}
+.navbar.footer-section {
+    background-color: #4E4D4A;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px 0 0 0 ;
+}
+
+.navbar-inner {
+    margin: 5px 0;
+    text-align: right;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background: transparent;
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ddd;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
