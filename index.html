@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+        <title>Web-based application construction, maintenance and integration</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/alternative.css" rel="stylesheet">
+        <link href="app/css/loading-bar.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome-4.0.3/css/font-awesome.min.css">
+
+
+        <!-- Just for debugging purposes. Don't actually copy this line! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->    
+
+
+    </head>
+
+    <body ng-app="gowe">
+
+
+        <div class="header-section">
+            <div class="container">
+                <!-- Static navbar -->
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand trademark" href="#"><span class="g">g</span><span class="o">o</span><span class="w">W</span><span class="e">e</span></a>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="../navbar-static-top/">Contact Us</a></li>
+                                <li><a href="../navbar-fixed-top/">Log In</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div><!--/.container-fluid -->
+                </div>
+            </div>
+        </div>
+        <div class="container content-area">
+
+                <nav id="menu-container" ng-controller="NavigationCtrl">
+
+                    <div ng-show="useCircular" circularnavigation></div>
+                    <div ng-show="useMargin" marginnavigation></div>
+                    
+                </nav>
+
+
+            <div id="btc" class="delegated-content animate-hide">
+                <h1>Bitcoin Consultants</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed nunc sem. In non diam in tellus faucibus hendrerit. Mauris commodo felis vitae turpis suscipit elementum. In nulla purus, gravida nec dui a, euismod facilisis leo. Nam auctor sit amet massa ut bibendum. Nulla nisl justo, faucibus quis nibh a, interdum lacinia lacus. Sed mauris diam, convallis at tortor at, adipiscing auctor est. Integer id magna vel mauris mollis commodo in convallis enim. Mauris varius, nisl id commodo fringilla, quam nulla consectetur nisl, eu tristique ipsum tortor at neque. Curabitur fringilla nunc quis lacinia dapibus. Suspendisse sit amet mattis est. Curabitur eleifend mollis feugiat. Quisque ornare aliquet turpis, vel tincidunt nibh dapibus id. Nam molestie adipiscing neque nec adipiscing.</p>
+
+                <p>Morbi vel eros eget urna commodo luctus vitae sed metus. Vestibulum vel sapien pulvinar nibh commodo gravida in nec augue. Cras adipiscing ligula sed elementum congue. Maecenas nunc erat, volutpat at dolor quis, pulvinar adipiscing arcu. Vestibulum nec purus faucibus, molestie mauris sit amet, semper sapien. Etiam hendrerit turpis non tortor placerat hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel elit eu magna porta tincidunt.</p>
+
+                <p>Cras sit amet vestibulum justo. Integer nec rutrum ligula. Pellentesque eget suscipit ante. Morbi non mauris nisi. Nullam eleifend ligula in enim sodales, eget scelerisque lacus convallis. Donec mauris quam, vestibulum ultrices viverra sed, imperdiet id felis. Maecenas ut condimentum lorem. Fusce sit amet ligula eget mauris iaculis fermentum. Proin adipiscing, est a iaculis cursus, nunc odio consectetur justo, vel sagittis magna neque fermentum mi. Nam pulvinar orci sed orci accumsan hendrerit. Aliquam ullamcorper dolor felis, in feugiat nisl feugiat at. In faucibus aliquet nulla, at luctus tortor mollis a. Donec tincidunt dignissim libero, quis condimentum risus gravida sit amet. Sed mattis est et auctor aliquam.</p>
+
+                <p>Cras lobortis nibh sodales lectus auctor aliquam. Proin at dapibus nibh, eget imperdiet ligula. Suspendisse ullamcorper gravida neque eget porta. Aliquam at sem quis velit luctus tincidunt vel sed erat. Vestibulum congue sollicitudin neque at auctor. Quisque vel adipiscing arcu. Curabitur porttitor scelerisque semper. Duis commodo dui ac magna blandit dignissim. Aenean volutpat lacinia eleifend. Cras et gravida quam. Phasellus hendrerit est quis libero elementum, non accumsan elit bibendum. Ut aliquam augue in varius tincidunt.</p>
+
+                <p>Fusce interdum elementum urna. Nulla venenatis neque elit, a viverra massa dapibus nec. Cras eu lectus et eros ullamcorper mollis. Maecenas et egestas sem. Praesent quis nisl luctus elit varius rhoncus. Fusce diam enim, sollicitudin nec sagittis vitae, vestibulum eu turpis. Nam a quam ullamcorper, scelerisque magna vitae, adipiscing nisl. Fusce vulputate lacus sit amet auctor feugiat.</p>
+            </div>
+
+            <div id="android" class="delegated-content animate-hide">
+                <h1>We Build Mobile Apps</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed nunc sem. In non diam in tellus faucibus hendrerit. Mauris commodo felis vitae turpis suscipit elementum. In nulla purus, gravida nec dui a, euismod facilisis leo. Nam auctor sit amet massa ut bibendum. Nulla nisl justo, faucibus quis nibh a, interdum lacinia lacus. Sed mauris diam, convallis at tortor at, adipiscing auctor est. Integer id magna vel mauris mollis commodo in convallis enim. Mauris varius, nisl id commodo fringilla, quam nulla consectetur nisl, eu tristique ipsum tortor at neque. Curabitur fringilla nunc quis lacinia dapibus. Suspendisse sit amet mattis est. Curabitur eleifend mollis feugiat. Quisque ornare aliquet turpis, vel tincidunt nibh dapibus id. Nam molestie adipiscing neque nec adipiscing.</p>
+
+                <p>Morbi vel eros eget urna commodo luctus vitae sed metus. Vestibulum vel sapien pulvinar nibh commodo gravida in nec augue. Cras adipiscing ligula sed elementum congue. Maecenas nunc erat, volutpat at dolor quis, pulvinar adipiscing arcu. Vestibulum nec purus faucibus, molestie mauris sit amet, semper sapien. Etiam hendrerit turpis non tortor placerat hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel elit eu magna porta tincidunt.</p>
+
+                <p>Cras sit amet vestibulum justo. Integer nec rutrum ligula. Pellentesque eget suscipit ante. Morbi non mauris nisi. Nullam eleifend ligula in enim sodales, eget scelerisque lacus convallis. Donec mauris quam, vestibulum ultrices viverra sed, imperdiet id felis. Maecenas ut condimentum lorem. Fusce sit amet ligula eget mauris iaculis fermentum. Proin adipiscing, est a iaculis cursus, nunc odio consectetur justo, vel sagittis magna neque fermentum mi. Nam pulvinar orci sed orci accumsan hendrerit. Aliquam ullamcorper dolor felis, in feugiat nisl feugiat at. In faucibus aliquet nulla, at luctus tortor mollis a. Donec tincidunt dignissim libero, quis condimentum risus gravida sit amet. Sed mattis est et auctor aliquam.</p>
+
+                <p>Cras lobortis nibh sodales lectus auctor aliquam. Proin at dapibus nibh, eget imperdiet ligula. Suspendisse ullamcorper gravida neque eget porta. Aliquam at sem quis velit luctus tincidunt vel sed erat. Vestibulum congue sollicitudin neque at auctor. Quisque vel adipiscing arcu. Curabitur porttitor scelerisque semper. Duis commodo dui ac magna blandit dignissim. Aenean volutpat lacinia eleifend. Cras et gravida quam. Phasellus hendrerit est quis libero elementum, non accumsan elit bibendum. Ut aliquam augue in varius tincidunt.</p>
+
+                <p>Fusce interdum elementum urna. Nulla venenatis neque elit, a viverra massa dapibus nec. Cras eu lectus et eros ullamcorper mollis. Maecenas et egestas sem. Praesent quis nisl luctus elit varius rhoncus. Fusce diam enim, sollicitudin nec sagittis vitae, vestibulum eu turpis. Nam a quam ullamcorper, scelerisque magna vitae, adipiscing nisl. Fusce vulputate lacus sit amet auctor feugiat.</p>
+            </div>
+
+            <div id="html5" class="delegated-content animate-hide">
+                <h1>Update Your Website</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed nunc sem. In non diam in tellus faucibus hendrerit. Mauris commodo felis vitae turpis suscipit elementum. In nulla purus, gravida nec dui a, euismod facilisis leo. Nam auctor sit amet massa ut bibendum. Nulla nisl justo, faucibus quis nibh a, interdum lacinia lacus. Sed mauris diam, convallis at tortor at, adipiscing auctor est. Integer id magna vel mauris mollis commodo in convallis enim. Mauris varius, nisl id commodo fringilla, quam nulla consectetur nisl, eu tristique ipsum tortor at neque. Curabitur fringilla nunc quis lacinia dapibus. Suspendisse sit amet mattis est. Curabitur eleifend mollis feugiat. Quisque ornare aliquet turpis, vel tincidunt nibh dapibus id. Nam molestie adipiscing neque nec adipiscing.</p>
+
+                <p>Morbi vel eros eget urna commodo luctus vitae sed metus. Vestibulum vel sapien pulvinar nibh commodo gravida in nec augue. Cras adipiscing ligula sed elementum congue. Maecenas nunc erat, volutpat at dolor quis, pulvinar adipiscing arcu. Vestibulum nec purus faucibus, molestie mauris sit amet, semper sapien. Etiam hendrerit turpis non tortor placerat hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel elit eu magna porta tincidunt.</p>
+
+                <p>Cras sit amet vestibulum justo. Integer nec rutrum ligula. Pellentesque eget suscipit ante. Morbi non mauris nisi. Nullam eleifend ligula in enim sodales, eget scelerisque lacus convallis. Donec mauris quam, vestibulum ultrices viverra sed, imperdiet id felis. Maecenas ut condimentum lorem. Fusce sit amet ligula eget mauris iaculis fermentum. Proin adipiscing, est a iaculis cursus, nunc odio consectetur justo, vel sagittis magna neque fermentum mi. Nam pulvinar orci sed orci accumsan hendrerit. Aliquam ullamcorper dolor felis, in feugiat nisl feugiat at. In faucibus aliquet nulla, at luctus tortor mollis a. Donec tincidunt dignissim libero, quis condimentum risus gravida sit amet. Sed mattis est et auctor aliquam.</p>
+
+                <p>Cras lobortis nibh sodales lectus auctor aliquam. Proin at dapibus nibh, eget imperdiet ligula. Suspendisse ullamcorper gravida neque eget porta. Aliquam at sem quis velit luctus tincidunt vel sed erat. Vestibulum congue sollicitudin neque at auctor. Quisque vel adipiscing arcu. Curabitur porttitor scelerisque semper. Duis commodo dui ac magna blandit dignissim. Aenean volutpat lacinia eleifend. Cras et gravida quam. Phasellus hendrerit est quis libero elementum, non accumsan elit bibendum. Ut aliquam augue in varius tincidunt.</p>
+
+                <p>Fusce interdum elementum urna. Nulla venenatis neque elit, a viverra massa dapibus nec. Cras eu lectus et eros ullamcorper mollis. Maecenas et egestas sem. Praesent quis nisl luctus elit varius rhoncus. Fusce diam enim, sollicitudin nec sagittis vitae, vestibulum eu turpis. Nam a quam ullamcorper, scelerisque magna vitae, adipiscing nisl. Fusce vulputate lacus sit amet auctor feugiat.</p>
+            </div>
+
+            <div id="github" class="delegated-content animate-hide">
+                <h1>Contributions to Open Source Projects</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed nunc sem. In non diam in tellus faucibus hendrerit. Mauris commodo felis vitae turpis suscipit elementum. In nulla purus, gravida nec dui a, euismod facilisis leo. Nam auctor sit amet massa ut bibendum. Nulla nisl justo, faucibus quis nibh a, interdum lacinia lacus. Sed mauris diam, convallis at tortor at, adipiscing auctor est. Integer id magna vel mauris mollis commodo in convallis enim. Mauris varius, nisl id commodo fringilla, quam nulla consectetur nisl, eu tristique ipsum tortor at neque. Curabitur fringilla nunc quis lacinia dapibus. Suspendisse sit amet mattis est. Curabitur eleifend mollis feugiat. Quisque ornare aliquet turpis, vel tincidunt nibh dapibus id. Nam molestie adipiscing neque nec adipiscing.</p>
+
+                <p>Morbi vel eros eget urna commodo luctus vitae sed metus. Vestibulum vel sapien pulvinar nibh commodo gravida in nec augue. Cras adipiscing ligula sed elementum congue. Maecenas nunc erat, volutpat at dolor quis, pulvinar adipiscing arcu. Vestibulum nec purus faucibus, molestie mauris sit amet, semper sapien. Etiam hendrerit turpis non tortor placerat hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel elit eu magna porta tincidunt.</p>
+
+                <p>Cras sit amet vestibulum justo. Integer nec rutrum ligula. Pellentesque eget suscipit ante. Morbi non mauris nisi. Nullam eleifend ligula in enim sodales, eget scelerisque lacus convallis. Donec mauris quam, vestibulum ultrices viverra sed, imperdiet id felis. Maecenas ut condimentum lorem. Fusce sit amet ligula eget mauris iaculis fermentum. Proin adipiscing, est a iaculis cursus, nunc odio consectetur justo, vel sagittis magna neque fermentum mi. Nam pulvinar orci sed orci accumsan hendrerit. Aliquam ullamcorper dolor felis, in feugiat nisl feugiat at. In faucibus aliquet nulla, at luctus tortor mollis a. Donec tincidunt dignissim libero, quis condimentum risus gravida sit amet. Sed mattis est et auctor aliquam.</p>
+
+                <p>Cras lobortis nibh sodales lectus auctor aliquam. Proin at dapibus nibh, eget imperdiet ligula. Suspendisse ullamcorper gravida neque eget porta. Aliquam at sem quis velit luctus tincidunt vel sed erat. Vestibulum congue sollicitudin neque at auctor. Quisque vel adipiscing arcu. Curabitur porttitor scelerisque semper. Duis commodo dui ac magna blandit dignissim. Aenean volutpat lacinia eleifend. Cras et gravida quam. Phasellus hendrerit est quis libero elementum, non accumsan elit bibendum. Ut aliquam augue in varius tincidunt.</p>
+
+                <p>Fusce interdum elementum urna. Nulla venenatis neque elit, a viverra massa dapibus nec. Cras eu lectus et eros ullamcorper mollis. Maecenas et egestas sem. Praesent quis nisl luctus elit varius rhoncus. Fusce diam enim, sollicitudin nec sagittis vitae, vestibulum eu turpis. Nam a quam ullamcorper, scelerisque magna vitae, adipiscing nisl. Fusce vulputate lacus sit amet auctor feugiat.</p>
+            </div>
+
+            <div id="contact" class="delegated-content animate-hide">
+                <h1>Contact us</h1>
+                <div ng-controller="ContactUsCtrl">
+                    
+                    <form name="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" ng-model="name" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                            <p ng-show="contactForm.name.$invalid && !contactForm.name.$pristine" class="help-block">You name is required.</p>
+                        </div>
+                        <div class="form-group" ng-class="{ 'has-error' : contactForm.email.$invalid && !contactForm.email.$pristine }">
+                            <label for="email">Your Email</label>
+                            <input type="email" ng-model="email" id="email" name="email" class="form-control" placeholder="Your Email Address">
+                            <p ng-show="contactForm.email.$invalid && !contactForm.email.$pristine" class="help-block">Enter a valid email.</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea class="form-control" ng-model="message" id="message" rows="3"></textarea>
+                        </div>
+                        <button ng-click="sendContact()" value="Submit" class="btn btn-primary" ng-disabled="contactForm.$invalid">Submit</button>
+                        <div ng-show="messagecontent" message></div>
+                    {{m}}
+                    </form>
+
+                </div>
+            </div>
+
+            <div id="pinterest" class="delegated-content animate-hide">
+                <h1>Not Sure Why This is Here</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed nunc sem. In non diam in tellus faucibus hendrerit. Mauris commodo felis vitae turpis suscipit elementum. In nulla purus, gravida nec dui a, euismod facilisis leo. Nam auctor sit amet massa ut bibendum. Nulla nisl justo, faucibus quis nibh a, interdum lacinia lacus. Sed mauris diam, convallis at tortor at, adipiscing auctor est. Integer id magna vel mauris mollis commodo in convallis enim. Mauris varius, nisl id commodo fringilla, quam nulla consectetur nisl, eu tristique ipsum tortor at neque. Curabitur fringilla nunc quis lacinia dapibus. Suspendisse sit amet mattis est. Curabitur eleifend mollis feugiat. Quisque ornare aliquet turpis, vel tincidunt nibh dapibus id. Nam molestie adipiscing neque nec adipiscing.</p>
+
+                <p>Morbi vel eros eget urna commodo luctus vitae sed metus. Vestibulum vel sapien pulvinar nibh commodo gravida in nec augue. Cras adipiscing ligula sed elementum congue. Maecenas nunc erat, volutpat at dolor quis, pulvinar adipiscing arcu. Vestibulum nec purus faucibus, molestie mauris sit amet, semper sapien. Etiam hendrerit turpis non tortor placerat hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel elit eu magna porta tincidunt.</p>
+
+                <p>Cras sit amet vestibulum justo. Integer nec rutrum ligula. Pellentesque eget suscipit ante. Morbi non mauris nisi. Nullam eleifend ligula in enim sodales, eget scelerisque lacus convallis. Donec mauris quam, vestibulum ultrices viverra sed, imperdiet id felis. Maecenas ut condimentum lorem. Fusce sit amet ligula eget mauris iaculis fermentum. Proin adipiscing, est a iaculis cursus, nunc odio consectetur justo, vel sagittis magna neque fermentum mi. Nam pulvinar orci sed orci accumsan hendrerit. Aliquam ullamcorper dolor felis, in feugiat nisl feugiat at. In faucibus aliquet nulla, at luctus tortor mollis a. Donec tincidunt dignissim libero, quis condimentum risus gravida sit amet. Sed mattis est et auctor aliquam.</p>
+
+                <p>Cras lobortis nibh sodales lectus auctor aliquam. Proin at dapibus nibh, eget imperdiet ligula. Suspendisse ullamcorper gravida neque eget porta. Aliquam at sem quis velit luctus tincidunt vel sed erat. Vestibulum congue sollicitudin neque at auctor. Quisque vel adipiscing arcu. Curabitur porttitor scelerisque semper. Duis commodo dui ac magna blandit dignissim. Aenean volutpat lacinia eleifend. Cras et gravida quam. Phasellus hendrerit est quis libero elementum, non accumsan elit bibendum. Ut aliquam augue in varius tincidunt.</p>
+
+                <p>Fusce interdum elementum urna. Nulla venenatis neque elit, a viverra massa dapibus nec. Cras eu lectus et eros ullamcorper mollis. Maecenas et egestas sem. Praesent quis nisl luctus elit varius rhoncus. Fusce diam enim, sollicitudin nec sagittis vitae, vestibulum eu turpis. Nam a quam ullamcorper, scelerisque magna vitae, adipiscing nisl. Fusce vulputate lacus sit amet auctor feugiat.</p>
+            </div>
+
+            <div id="other" class="delegated-content animate-hide">
+                <h1>We do Other Stuff</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed nunc sem. In non diam in tellus faucibus hendrerit. Mauris commodo felis vitae turpis suscipit elementum. In nulla purus, gravida nec dui a, euismod facilisis leo. Nam auctor sit amet massa ut bibendum. Nulla nisl justo, faucibus quis nibh a, interdum lacinia lacus. Sed mauris diam, convallis at tortor at, adipiscing auctor est. Integer id magna vel mauris mollis commodo in convallis enim. Mauris varius, nisl id commodo fringilla, quam nulla consectetur nisl, eu tristique ipsum tortor at neque. Curabitur fringilla nunc quis lacinia dapibus. Suspendisse sit amet mattis est. Curabitur eleifend mollis feugiat. Quisque ornare aliquet turpis, vel tincidunt nibh dapibus id. Nam molestie adipiscing neque nec adipiscing.</p>
+
+                <p>Morbi vel eros eget urna commodo luctus vitae sed metus. Vestibulum vel sapien pulvinar nibh commodo gravida in nec augue. Cras adipiscing ligula sed elementum congue. Maecenas nunc erat, volutpat at dolor quis, pulvinar adipiscing arcu. Vestibulum nec purus faucibus, molestie mauris sit amet, semper sapien. Etiam hendrerit turpis non tortor placerat hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel elit eu magna porta tincidunt.</p>
+
+                <p>Cras sit amet vestibulum justo. Integer nec rutrum ligula. Pellentesque eget suscipit ante. Morbi non mauris nisi. Nullam eleifend ligula in enim sodales, eget scelerisque lacus convallis. Donec mauris quam, vestibulum ultrices viverra sed, imperdiet id felis. Maecenas ut condimentum lorem. Fusce sit amet ligula eget mauris iaculis fermentum. Proin adipiscing, est a iaculis cursus, nunc odio consectetur justo, vel sagittis magna neque fermentum mi. Nam pulvinar orci sed orci accumsan hendrerit. Aliquam ullamcorper dolor felis, in feugiat nisl feugiat at. In faucibus aliquet nulla, at luctus tortor mollis a. Donec tincidunt dignissim libero, quis condimentum risus gravida sit amet. Sed mattis est et auctor aliquam.</p>
+
+                <p>Cras lobortis nibh sodales lectus auctor aliquam. Proin at dapibus nibh, eget imperdiet ligula. Suspendisse ullamcorper gravida neque eget porta. Aliquam at sem quis velit luctus tincidunt vel sed erat. Vestibulum congue sollicitudin neque at auctor. Quisque vel adipiscing arcu. Curabitur porttitor scelerisque semper. Duis commodo dui ac magna blandit dignissim. Aenean volutpat lacinia eleifend. Cras et gravida quam. Phasellus hendrerit est quis libero elementum, non accumsan elit bibendum. Ut aliquam augue in varius tincidunt.</p>
+
+                <p>Fusce interdum elementum urna. Nulla venenatis neque elit, a viverra massa dapibus nec. Cras eu lectus et eros ullamcorper mollis. Maecenas et egestas sem. Praesent quis nisl luctus elit varius rhoncus. Fusce diam enim, sollicitudin nec sagittis vitae, vestibulum eu turpis. Nam a quam ullamcorper, scelerisque magna vitae, adipiscing nisl. Fusce vulputate lacus sit amet auctor feugiat.</p>
+            </div>
+
+        </div> <!-- /container -->
+
+        <div id="footer" class="container">
+
+            <nav class="navbar navbar-default navbar-fixed-bottom footer-section">
+                <div class="container">
+                    <div class="navbar-inner">
+                        <div class="navbar-left">
+                            <p class="text-muted">Montreal, Canada</p>
+                        </div>
+                        <div class="nav navbar-nav navbar-right">
+                            <p class="text-muted credit">Call 1 514 883 0520</p>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+        <script src="http://code.angularjs.org/1.2.6/angular.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-animate.min.js"></script>
+        
+        <script src="app/js/app.js"></script>
+        <script src="app/js/services.js"></script>
+        <script src="app/js/controllers.js"></script>
+        <script src="app/js/filters.js"></script>
+        <script src="app/js/directives.js"></script>
+        <script src="app/js/loading-bar.js"></script>
+    </body>
+</html>
+
